@@ -17,16 +17,16 @@
 #endregion
 
 #region Ideal Code
-//using Liskov_Substitution_Principle_IdealCode;
-//Cloud cloud = new AWS();
-//cloud.MachineLearning();
-//(cloud as ITranslatable)?.Translate();
+using Liskov_Substitution_Principle_IdealCode;
+Cloud cloud = new AWS();
+cloud.MachineLearning();
+(cloud as ITranslatable)?.Translate();
 
-//cloud = new Google();
-//cloud.MachineLearning();
-//(cloud as ITranslatable)?.Translate();
+cloud = new Google();
+cloud.MachineLearning();
+(cloud as ITranslatable)?.Translate();
 
-//cloud = new Azure();
-//cloud.MachineLearning();
-//(cloud as ITranslatable)?.Translate();
+cloud = new Azure();
+cloud.MachineLearning();
+(cloud as ITranslatable)?.Translate();
 #endregion
