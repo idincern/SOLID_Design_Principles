@@ -4,5 +4,3 @@ Database db = new();
 db.Connect();
 PersonService ps = new();
 ps.GetPersons();
-
-Console.WriteLine("Program end.");
