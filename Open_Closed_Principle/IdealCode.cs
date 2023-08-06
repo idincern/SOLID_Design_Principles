@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Open_Closed_Principle_IdealCode;
+
+// Genişletmeye açık (AhmetBank) ancak değiştirmeye kapalı 
+
 class ParaGonderici
 {
     public void Gonder(IBanka banka, int tutar, string hesapNo)
@@ -29,7 +32,6 @@ class Garanti : IBanka
     {
         try
         {
-
             HesapNo = hesapNo;
             ParaGonder(tutar);
             return true;
