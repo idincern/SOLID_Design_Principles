@@ -5,7 +5,4 @@ db.Connect();
 PersonService ps = new();
 ps.GetPersons();
 
-namespace Single_Responsibility_Principle_IdealCode
-{
-    // scope bazlı namespace
-} 
+Console.WriteLine("Program end.");
